@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clientes</string>
+    <string name="title_activity_agregar_nota">Cliente</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <!--string del MainActivity -->
+    <string name="MainLblTitulo">Libreta de Clientes</string>
+    <string name="btnAgregarCliente">Agregar</string>
+
+    <!-- string del activity AgregarCliente -->
+    <string name="LblAgregarTitulo">Agregar Clientes</string>
+    <string name="Nombre">Cliente</string>
+    <string name="Direccion">Direccion</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Correo">Correo</string>
+    <string name="Pedido">Pedido</string>
+    <string name="Fecha">Fecha Entrega</string>
+    <string name="Pago">Total de Pago</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnRegresar">Regresar</string>
+
+    <string name="LblModificarTitulo">Modificar Clientes</string>
+    <string name="ModificarbtnRegistrar">Registrar</string>
+    <string name="ModificarbtnRegresar">Regresar</string>
+
+    <string name="title_activity_agregar_cliente">Agregar Cliente</string>
+    <string name="title_activity_detalles_cliente">Detalles Cliente</string>
+
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_modificar_cliente">Modificar Cliente</string>
+
+</resources>

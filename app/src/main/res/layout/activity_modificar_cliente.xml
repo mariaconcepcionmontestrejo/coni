@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ejemplobasedatos.utsjr.com.ejemplobasedatos.ModificarClienteActivity"
+    android:background="#4132fff8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modificar Cliente"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ModificarTxtCliente"
+        android:inputType="text"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ModificarTxtDireccion"
+        android:inputType="text"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ModificarTxtTelefono"
+        android:inputType="text"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ModificarTxtFechaEntrega"
+        android:inputType="text"
+
+        />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ModificarBtnRegistrar"
+            android:text="Registrar"
+            android:textColor="@color/accent_material_dark"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ModificarBtnRegresar"
+            android:text="Regresar"
+            android:textColor="@color/accent_material_dark"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
